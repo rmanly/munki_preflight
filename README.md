@@ -16,6 +16,10 @@ One school's final bell is actually at 15:15. Add another if statement for hour 
 
 The pack location for the Makefile is a subdirectory called [preflight_abort.d][abort] because I use [munkireport-php][]
 
+See my [luggage.local][] for the relevant [lines][] (link highlights proper lines at the time of this writing)
+
 [preflight]: https://github.com/munki/munki/wiki/Preflight%20And%20Postflight%20Scripts
 [abort]: https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md#advanced-client-setup
 [munkireport-php]: https://github.com/munkireport/munkireport-php
+[luggage.local]: https://github.com/rmanly/luggage_local
+[lines]: https://github.com/rmanly/luggage_local/blob/master/luggage.local#L15-27

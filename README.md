@@ -8,9 +8,9 @@ See [Munki Preflight and Postflight Scripts][preflight] for more info.
 
 I still want to be able to run MSC or managedsoftwareupdate by hand or have the students do so when required so this only targets 'auto' runs. Editing the launchd plists is not ideal because they may get overwritten with an update.
 
-## Potential Enhancements ##
+## Enhancements ##
 
-Added the ability to run after 15:15 and also to auto run on weekends. This is something that I'm only likely to take advantage of at the beginning of the school year if something is **REALLY** broken, but it is a nice CYA measure. My thanks to [@rtrouton][] and [@rsaeks][] for the feedback.
+I added the ability to run after 15:15 and also to auto run on weekends. This is something that I'm only likely to take advantage of at the beginning of the school year if something is **REALLY** broken, but it is a nice CYA measure. My thanks to [@rtrouton][] and [@rsaeks][] for the feedback.
 
 ## Makefile ##
 

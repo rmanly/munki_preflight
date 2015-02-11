@@ -2,15 +2,15 @@
 
 This will abort munki auto runs during school hours.
 
-This is in response to infrequently used laptops being removed from a cart and performing poorly but is honestly something that has been on the back burner for a while. The script is obviously quite simple but I started from not even knowing if something like this was possible.
+This is in response to infrequently used laptops being removed from a cart and performing poorly, but is honestly something that has been on the back burner for a while.
 
 See [Munki Preflight and Postflight Scripts][preflight] for more info.
 
-I still want to be able to run MSC or managedsoftwareupdate by hand or have the students do so when required.
+I still want to be able to run MSC or managedsoftwareupdate by hand or have the students do so when required so this only targets 'auto' runs. Editing the launchd plists is not ideal because they may get overwritten with an update.
 
-## Potential Enhancement ##
+## Enhancements ##
 
-One school's final bell is actually at 15:15. Add another if statement for hour 15 to check the minutes and allow a run if after 15:25 or :30. I will probably add this if testing is successful and I push the aborting preflight to the entire district or all the student machines.
+I added the ability to run after 15:15 and also to auto run on weekends. This is something that I'm only likely to take advantage of at the beginning of the school year if something is **REALLY** broken, but it is a nice CYA measure. My thanks to [@rtrouton][] and [@rsaeks][] for the feedback.
 
 ## Makefile ##
 
@@ -23,3 +23,5 @@ See my [luggage.local][] for the relevant [lines][] (link highlights proper line
 [munkireport-php]: https://github.com/munkireport/munkireport-php
 [luggage.local]: https://github.com/rmanly/luggage_local
 [lines]: https://github.com/rmanly/luggage_local/blob/master/luggage.local#L15-27
+[@rtrouton]: https://twitter.com/rtrouton
+[@rsaeks]: https://twitter.com/rsaeks

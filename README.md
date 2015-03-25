@@ -22,6 +22,6 @@ See my [luggage.local][] for the relevant [lines][] (link highlights proper line
 [abort]: https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md#advanced-client-setup
 [munkireport-php]: https://github.com/munkireport/munkireport-php
 [luggage.local]: https://github.com/rmanly/luggage_local
-[lines]: https://github.com/rmanly/luggage_local/blob/master/luggage.local#L15-27
+[lines]: https://github.com/rmanly/luggage_local/blob/master/luggage.local#L37-44
 [@rtrouton]: https://twitter.com/rtrouton
 [@rsaeks]: https://twitter.com/rsaeks

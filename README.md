@@ -1,5 +1,7 @@
 # munki_preflight
 
+**NOTE:** this will work but only if it is munki's only *preflight* script. I used to run it via munkireport-php's preflight.d directory which was deprecated last summer.
+
 This will abort munki auto runs during school hours.
 
 This is in response to infrequently used laptops being removed from a cart and performing poorly, but is honestly something that has been on the back burner for a while.

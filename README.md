@@ -1,6 +1,8 @@
 # munki_preflight
 
-**NOTE:** this will work but only if it is munki's only *preflight* script. I used to run it via munkireport-php's preflight.d directory which was deprecated last summer.
+**NOTE:** these will work but only if they are munki's only *preflight* script. I used to run it via munkireport-php's preflight.d directory which was deprecated last summer.
+
+## student_no_auto_time
 
 This will abort munki auto runs during school hours.
 
